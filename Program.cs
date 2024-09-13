@@ -8,6 +8,10 @@ DisplayStadiumDetails(stadium, game);
 static string GetEnjoymentLevel(){
     Console.Clear();
     System.Console.WriteLine("What is your preferred level of enjoyment?");
+    System.Console.WriteLine("Boring");
+    System.Console.WriteLine("Average");
+    System.Console.WriteLine("Fun");
+    System.Console.WriteLine("Epic");
     return Console.ReadLine().ToLower();
 }
 
